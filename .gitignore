@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# User data and logs
+settings.json
+app.log
+
+# Build outputs
+build/
+build_fallback/
+dist/
+dist_fallback/
+
+# PyInstaller artifacts
+*.spec.bak
+
+# Bundled binary artifacts
+ffmpeg/bin/*.exe
+ffmpeg/bin/*.dll
+
+# IDE
+.vscode/
+
+# Temporary files
+*.tmp
+*.tmp.*
