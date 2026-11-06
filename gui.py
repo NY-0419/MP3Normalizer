@@ -536,6 +536,11 @@ class MP3NormalizerApp:
             target_tp = float(self.spin_peak.get())
         except ValueError:
             target_i, target_tp = -14.0, -1.0
+        try:
+            self.audio_processor.validate_loudnorm_targets(target_i, target_tp)
+        except ValueError as error:
+            messagebox.showerror("入力値エラー", str(error))
+            return
 
         self.btn_measure.configure(state="disabled", text="測定中...")
         self.lbl_measurement.configure(text="ラウドネス: 測定中...")

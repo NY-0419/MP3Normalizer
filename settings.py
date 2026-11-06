@@ -36,14 +36,14 @@ def validate_settings(settings):
 
     try:
         loudness = float(settings.get("target_loudness", validated["target_loudness"]))
-        if math.isfinite(loudness) and -60.0 <= loudness <= 0.0:
+        if math.isfinite(loudness) and -70.0 <= loudness <= -5.0:
             validated["target_loudness"] = loudness
     except (TypeError, ValueError):
         pass
 
     try:
         true_peak = float(settings.get("target_true_peak", validated["target_true_peak"]))
-        if math.isfinite(true_peak) and -20.0 <= true_peak <= 0.0:
+        if math.isfinite(true_peak) and -9.0 <= true_peak <= 0.0:
             validated["target_true_peak"] = true_peak
     except (TypeError, ValueError):
         pass

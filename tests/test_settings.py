@@ -19,6 +19,14 @@ class SettingsValidationTests(unittest.TestCase):
         self.assertEqual(settings["output_format"], "same")
         self.assertEqual(settings["file_list_font_size"], 10)
 
+    def test_loudnorm_boundary_values_are_valid(self):
+        settings = validate_settings({
+            "target_loudness": -5.0,
+            "target_true_peak": -9.0,
+        })
+        self.assertEqual(settings["target_loudness"], -5.0)
+        self.assertEqual(settings["target_true_peak"], -9.0)
+
     def test_valid_values_are_preserved(self):
         settings = validate_settings({
             "target_loudness": -18,

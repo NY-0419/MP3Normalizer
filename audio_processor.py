@@ -124,6 +124,15 @@ class AudioProcessor:
                 pass
 
     @staticmethod
+    def validate_loudnorm_targets(target_i, target_tp, target_lra=11.0):
+        if not math.isfinite(target_i) or not -70.0 <= target_i <= -5.0:
+            raise ValueError("目標ラウドネスは -70.0〜-5.0 LUFS の範囲で指定してください")
+        if not math.isfinite(target_tp) or not -9.0 <= target_tp <= 0.0:
+            raise ValueError("目標トゥルーピークは -9.0〜0.0 dBTP の範囲で指定してください")
+        if not math.isfinite(target_lra) or not 1.0 <= target_lra <= 50.0:
+            raise ValueError("目標LRAは 1.0〜50.0 LU の範囲で指定してください")
+
+    @staticmethod
     def _sanitize_measurements(measured):
         defaults = {
             "input_i": -24.0,
@@ -157,6 +166,7 @@ class AudioProcessor:
         """
         if not os.path.exists(input_path):
             raise FileNotFoundError(f"入力ファイルが見つかりません: {input_path}")
+        self.validate_loudnorm_targets(target_i, target_tp, target_lra)
         if self.processing_cancel_event.is_set():
             raise ProcessingCancelled()
         if save_mode not in {"copy", "replace"}:
@@ -316,6 +326,7 @@ class AudioProcessor:
         """
         プレビュー用：事前スキャンなしのシングルパス（ダイナミック）でメモリ上へ即座にストリーミング再生
         """
+        self.validate_loudnorm_targets(target_i, target_tp, target_lra)
         self.stop_stream_preview()
 
         # プレビューは待機時間を無くすためシングルパスフィルターを使用
