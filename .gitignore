@@ -20,6 +20,7 @@ dist_fallback/
 # Bundled binary artifacts
 ffmpeg/bin/*.exe
 ffmpeg/bin/*.dll
+ffmpeg-master-latest-win64-lgpl/
 
 # IDE
 .vscode/

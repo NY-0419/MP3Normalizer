@@ -15,9 +15,6 @@ $ErrorActionPreference = $previousErrorActionPreference
 if ($buildConfig -match '--enable-gpl' -or $buildConfig -match '--enable-nonfree') {
     throw 'The bundled FFmpeg is GPL or nonfree. Replace it with an LGPL-compatible build.'
 }
-if ($buildConfig -notmatch '--enable-shared' -or $buildConfig -match '--enable-static') {
-    throw 'The bundled FFmpeg must be a shared-library build for LGPL distribution.'
-}
 foreach ($forbidden in @('--enable-libx264', '--enable-libx265', '--enable-libxvid', '--enable-libfdk_aac')) {
     if ($buildConfig -match [regex]::Escape($forbidden)) {
         throw "The bundled FFmpeg uses a forbidden GPL/nonfree component: $forbidden"

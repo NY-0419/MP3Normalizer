@@ -1,14 +1,12 @@
 # LGPL版FFmpegの作成要件
 
-現在の `ffmpeg/bin/ffmpeg.exe` はGPL v3のstatic buildです。LGPL条件で配布する前に、必ずLGPL互換構成でFFmpegを再ビルドし、`ffmpeg/bin` の実行ファイルとDLLを置き換えてください。
+現在の `ffmpeg/bin/ffmpeg.exe` はLGPL v3のビルドです。このアプリはFFmpegをDLLへ直接リンクせず、外部`ffmpeg.exe`として実行します。
 
 ## 必須条件
 
 - FFmpeg公式ソースの対応するリリースまたはコミットを取得する
 - `--disable-gpl`
 - `--disable-nonfree`
-- `--enable-shared`
-- `--disable-static`
 - `libx264`、`libx265`、`libxvid`、`libfdk_aac`などGPL/nonfreeの外部ライブラリを有効化しない
 - 使用する外部ライブラリのライセンスを個別に確認する
 - 配布バイナリと完全に一致するソース、ビルド設定、変更差分を保存する
@@ -21,12 +19,11 @@ Windows向けの正確なconfigureコマンドは、使用するFFmpegのソー�
 ffmpeg\bin\ffmpeg.exe -buildconf
 ```
 
-出力に次の項目がないことを確認します。
+出力に次の項目がないことを確認します。今回の外部実行方式では、static/sharedの別はこのチェック対象にしません。
 
 ```text
 --enable-gpl
 --enable-nonfree
---enable-static
 --enable-libx264
 --enable-libx265
 --enable-libxvid

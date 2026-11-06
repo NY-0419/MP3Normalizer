@@ -95,7 +95,7 @@ dist\MP3Normalizer\
 
 ## FFmpegのライセンス
 
-このアプリには、GPL v3で配布されるFFmpegビルドを同梱しています。
+このアプリには、LGPL v3で配布されるFFmpegビルドを同梱しています。
 同梱FFmpegのライセンスとビルド情報は以下にあります。
 
 ```text
@@ -127,4 +127,4 @@ Get-FileHash .\dist\MP3Normalizer\MP3Normalizer.exe -Algorithm SHA256
 このアプリ本体のライセンスは、配布形態に合わせて別途明記してください。
 同梱FFmpegについては、`ffmpeg\LICENSE`および`ffmpeg\README.txt`を参照してください。
 
-LGPL条件で配布するためのFFmpeg再ビルド要件は[FFMPEG-LGPL-BUILD.md](FFMPEG-LGPL-BUILD.md)に記載しています。現在同梱しているFFmpegはGPL v3版のため、LGPL版へ置き換えるまでLGPL版として配布しないでください。
+LGPL条件で配布するためのFFmpeg再ビルド要件は[FFMPEG-LGPL-BUILD.md](FFMPEG-LGPL-BUILD.md)に記載しています。FFmpegは外部プロセスとして実行されます。
