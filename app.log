@@ -1,0 +1,568 @@
+2026-10-13 18:05:57,994 - INFO - Successfully processed: C:/Users/noumi/Desktop/backups/mp3_BACKUP/[YT2mp3.info] - 遊助　『V』 (320kbps).mp3
+2026-10-14 12:53:17,223 - ERROR - Failed to process C:/Users/noumi/Desktop/backups/mp3_BACKUP/＊Luna - ラストラス.mp3: FFmpegの処理に失敗しました: ffmpeg version 9.0.2-essentials_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers
+  built with gcc 16.2.0 (Rev3, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-cairo --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-sdl2 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-mediafoundation --enable-libass --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-openal --enable-libgme --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+  libavutil      61.  1.102 / 61.  1.102
+  libavcodec     63.  1.102 / 63.  1.102
+  libavformat    63.  1.102 / 63.  1.102
+  libavdevice    63.  1.102 / 63.  1.102
+  libavfilter    12.  1.102 / 12.  1.102
+  libswscale     10.  1.102 / 10.  1.102
+  libswresample   7.  1.102 /  7.  1.102
+Input #0, mp3, from 'C:/Users/noumi/Desktop/backups/mp3_BACKUP/＊Luna - ラストラス.mp3':
+  Metadata:
+    title           : ラストラス
+    date            : 2025
+    description     : 初音ミク「マジカルミライ 2025」 テーマソング
+                    : https://magicalmirai.com/2025/
+                    : 
+                    : Music&Lyrics：*Luna
+                    : https://x.com/Luna_miko00
+                    : 
+                    : Vocal-Edit：びび
+                    : https://x.com/bibian0115
+                    : 
+                    : Mix：はるお
+                    : https://x.com/haluo_haluo
+                    : 
+                    : Illustration：おむたつ
+                    : https://x.com/omrice4869
+                    : 
+                    : Movie：えのき
+                    : https://x.com/en_eki
+                    : 
+                    : Assistant：津田、恋ゆる、翠葉
+                    : 
+                    : Vocal：初音ミク
+                    : 
+                    : 2025.7.9 Release
+                    : 『初音ミク「マジカルミライ 2025」OFFICIAL ALBUM』収録
+                    : https://magicalmirai.com/2025/goods_cd.html
+                    : https://n0.com/s/xb3cfpnuta1a
+                    : ⟡ ⊹˚⋆⟡ ⊹˚⋆⟡ ⊹˚⋆⟡ ⊹˚⋆⟡ ⊹˚⋆⟡ ⊹˚⋆⟡ ⊹˚⋆⟡
+                    : 
+                    : ゆっくり落ちる砂時計
+                    : 揺らいだ夜の星たちも
+                    : 気付けなくなっていたのは
+                    : 
+                    : きっと　涙が止まない夕暮れも
+                    : 動けそうにない朝明けも
+                    : 隣に誰もいないから
+                    : 
+                    : 負けたくない今日の日を　精一杯走った
+                    : 正しく生きることの　意味を知らないまま
+                    : でも　確かにそこに光はあったんだ
+                    : 
+                    : ねぇ空の色は何色だっただろう
+                    : 星はどんな音色だっただろう
+                    : 君を知らない世界たちが
+                    : この歌を笑っていたんだろう
+                    : 灰色の言葉もあっただろう
+                    : そんな日々を僕は　強さと呼びたい
+                    : 君の星河よ
+                    : 輝いて
+                    : 
+                    : 踏み出す足がすくんでも
+                    : 未来の空が暗くても
+                    : 隣に「音」があったから
+                    : 
+                    : 見えるもの全てが　真実じゃなくて
+                    : 渦巻く人の声を　疑う僕でありたい
+                    : まだ　映らない　星座を探して
+                    : 
+                    : 今まで数えた星だって
+                    : きっと輝いていたのに
+                    : いつから忘れていたの
+                    : いつから消してしまったの
+                    : 
+                    : この世界が美しく見えた
+                    : 最後の日はいつだっけ
+                    : 下を向いていた夜に
+                    : 見落としたんだ　今なら
+                    : 
+                    : 光るから
+                    : 僕の色は何色だっただろう
+                    : 君はどんな音色だっただろう
+                    : 少しだけ顔を上げて
+                    : 広がる空が見えたなら
+                    : あの日の答えもあったなら
+                    : そんな明日を僕は　嫌わないでいたい
+                    : 君の星河よ
+                    : 輝いて
+                    : 
+                    : あぁ空はこんな色だった
+    synopsis        : 初音ミク「マジカルミライ 2025」 テーマソング
+                    : https://magicalmirai.com/2025/
+                    : 
+                    : Music&Lyrics：*Luna
+                    : https://x.com/Luna_miko00
+                    : 
+                    : Vocal-Edit：びび
+                    : https://x.com/bibian0115
+                    : 
+                    : Mix：はるお
+                    : https://x.com/haluo_haluo
+                    : 
+                    : Illustration：おむたつ
+                    : https://x.com/omrice4869
+                    : 
+                    : Movie：えのき
+                    : https://x.com/en_eki
+                    : 
+                    : Assistant：津田、恋ゆる、翠葉
+                    : 
+                    : Vocal：初音ミク
+                    : 
+                    : 2025.7.9 Release
+                    : 『初音ミク「マジカルミライ 2025」OFFICIAL ALBUM』収録
+                    : https://magicalmirai.com/2025/goods_cd.html
+                    : https://n0.com/s/xb3cfpnuta1a
+                    : ⟡ ⊹˚⋆⟡ ⊹˚⋆⟡ ⊹˚⋆⟡ ⊹˚⋆⟡ ⊹˚⋆⟡ ⊹˚⋆⟡ ⊹˚⋆⟡
+                    : 
+                    : ゆっくり落ちる砂時計
+                    : 揺らいだ夜の星たちも
+                    : 気付けなくなっていたのは
+                    : 
+                    : きっと　涙が止まない夕暮れも
+                    : 動けそうにない朝明けも
+                    : 隣に誰もいないから
+                    : 
+                    : 負けたくない今日の日を　精一杯走った
+                    : 正しく生きることの　意味を知らないまま
+                    : でも　確かにそこに光はあったんだ
+                    : 
+                    : ねぇ空の色は何色だっただろう
+                    : 星はどんな音色だっただろう
+                    : 君を知らない世界たちが
+                    : この歌を笑っていたんだろう
+                    : 灰色の言葉もあっただろう
+                    : そんな日々を僕は　強さと呼びたい
+                    : 君の星河よ
+                    : 輝いて
+                    : 
+                    : 踏み出す足がすくんでも
+                    : 未来の空が暗くても
+                    : 隣に「音」があったから
+                    : 
+                    : 見えるもの全てが　真実じゃなくて
+                    : 渦巻く人の声を　疑う僕でありたい
+                    : まだ　映らない　星座を探して
+                    : 
+                    : 今まで数えた星だって
+                    : きっと輝いていたのに
+                    : いつから忘れていたの
+                    : いつから消してしまったの
+                    : 
+                    : この世界が美しく見えた
+                    : 最後の日はいつだっけ
+                    : 下を向いていた夜に
+                    : 見落としたんだ　今なら
+                    : 
+                    : 光るから
+                    : 僕の色は何色だっただろう
+                    : 君はどんな音色だっただろう
+                    : 少しだけ顔を上げて
+                    : 広がる空が見えたなら
+                    : あの日の答えもあったなら
+                    : そんな明日を僕は　嫌わないでいたい
+                    : 君の星河よ
+                    : 輝いて
+                    : 
+                    : あぁ空はこんな色だった
+    purl            : https://www.youtube.com/watch?v=gdmLEu5fVz4
+    comment         : https://www.youtube.com/watch?v=gdmLEu5fVz4
+    artist          : *Luna
+    genre           : VOCALOID
+    encoder         : Lavf61.1.100
+    album           : マジカルミライ サウンドトラック
+  Duration: 00:04:30.01, start: 0.023021, bitrate: 138 kb/s
+  Stream #0:0: Audio: mp3 (mp3float), 48000 Hz, stereo, fltp, 130 kb/s, start 0.023021
+    Metadata:
+      encoder         : Lavc61.3.
+  Stream #0:1: Video: mjpeg (Baseline), yuvj420p(pc, bt470bg/unknown/unknown), 720x720, 90k tbr, 90k tbn, start 0.023022 (attached pic)
+    Metadata:
+      title           : Album cover
+      comment         : Cover (front)
+[AVFormatContext @ 000001cefd49c040] Unable to choose an output format for 'C:/Users/noumi/ドキュメント/normalizer\＊Luna - ラストラス_norm.mp3.tmp'; use a standard extension for the filename or specify the format manually.
+[out#0 @ 000001cefd482880] Error initializing the muxer for C:/Users/noumi/ドキュメント/normalizer\＊Luna - ラストラス_norm.mp3.tmp: Invalid argument
+Error opening output file C:/Users/noumi/ドキュメント/normalizer\＊Luna - ラストラス_norm.mp3.tmp.
+Error opening output files: Invalid argument
+
+2026-10-14 12:57:24,321 - ERROR - Failed to process C:/Users/noumi/Desktop/backups/mp3_BACKUP/＊Luna - ラストラス.mp3: FFmpegの処理に失敗しました: ffmpeg version 9.0.2-essentials_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers
+  built with gcc 16.2.0 (Rev3, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-cairo --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-sdl2 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-mediafoundation --enable-libass --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-openal --enable-libgme --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+  libavutil      61.  1.102 / 61.  1.102
+  libavcodec     63.  1.102 / 63.  1.102
+  libavformat    63.  1.102 / 63.  1.102
+  libavdevice    63.  1.102 / 63.  1.102
+  libavfilter    12.  1.102 / 12.  1.102
+  libswscale     10.  1.102 / 10.  1.102
+  libswresample   7.  1.102 /  7.  1.102
+Input #0, mp3, from 'C:/Users/noumi/Desktop/backups/mp3_BACKUP/＊Luna - ラストラス.mp3':
+  Metadata:
+    title           : ラストラス
+    date            : 2025
+    description     : 初音ミク「マジカルミライ 2025」 テーマソング
+                    : https://magicalmirai.com/2025/
+                    : 
+                    : Music&Lyrics：*Luna
+                    : https://x.com/Luna_miko00
+                    : 
+                    : Vocal-Edit：びび
+                    : https://x.com/bibian0115
+                    : 
+                    : Mix：はるお
+                    : https://x.com/haluo_haluo
+                    : 
+                    : Illustration：おむたつ
+                    : https://x.com/omrice4869
+                    : 
+                    : Movie：えのき
+                    : https://x.com/en_eki
+                    : 
+                    : Assistant：津田、恋ゆる、翠葉
+                    : 
+                    : Vocal：初音ミク
+                    : 
+                    : 2025.7.9 Release
+                    : 『初音ミク「マジカルミライ 2025」OFFICIAL ALBUM』収録
+                    : https://magicalmirai.com/2025/goods_cd.html
+                    : https://n0.com/s/xb3cfpnuta1a
+                    : ⟡ ⊹˚⋆⟡ ⊹˚⋆⟡ ⊹˚⋆⟡ ⊹˚⋆⟡ ⊹˚⋆⟡ ⊹˚⋆⟡ ⊹˚⋆⟡
+                    : 
+                    : ゆっくり落ちる砂時計
+                    : 揺らいだ夜の星たちも
+                    : 気付けなくなっていたのは
+                    : 
+                    : きっと　涙が止まない夕暮れも
+                    : 動けそうにない朝明けも
+                    : 隣に誰もいないから
+                    : 
+                    : 負けたくない今日の日を　精一杯走った
+                    : 正しく生きることの　意味を知らないまま
+                    : でも　確かにそこに光はあったんだ
+                    : 
+                    : ねぇ空の色は何色だっただろう
+                    : 星はどんな音色だっただろう
+                    : 君を知らない世界たちが
+                    : この歌を笑っていたんだろう
+                    : 灰色の言葉もあっただろう
+                    : そんな日々を僕は　強さと呼びたい
+                    : 君の星河よ
+                    : 輝いて
+                    : 
+                    : 踏み出す足がすくんでも
+                    : 未来の空が暗くても
+                    : 隣に「音」があったから
+                    : 
+                    : 見えるもの全てが　真実じゃなくて
+                    : 渦巻く人の声を　疑う僕でありたい
+                    : まだ　映らない　星座を探して
+                    : 
+                    : 今まで数えた星だって
+                    : きっと輝いていたのに
+                    : いつから忘れていたの
+                    : いつから消してしまったの
+                    : 
+                    : この世界が美しく見えた
+                    : 最後の日はいつだっけ
+                    : 下を向いていた夜に
+                    : 見落としたんだ　今なら
+                    : 
+                    : 光るから
+                    : 僕の色は何色だっただろう
+                    : 君はどんな音色だっただろう
+                    : 少しだけ顔を上げて
+                    : 広がる空が見えたなら
+                    : あの日の答えもあったなら
+                    : そんな明日を僕は　嫌わないでいたい
+                    : 君の星河よ
+                    : 輝いて
+                    : 
+                    : あぁ空はこんな色だった
+    synopsis        : 初音ミク「マジカルミライ 2025」 テーマソング
+                    : https://magicalmirai.com/2025/
+                    : 
+                    : Music&Lyrics：*Luna
+                    : https://x.com/Luna_miko00
+                    : 
+                    : Vocal-Edit：びび
+                    : https://x.com/bibian0115
+                    : 
+                    : Mix：はるお
+                    : https://x.com/haluo_haluo
+                    : 
+                    : Illustration：おむたつ
+                    : https://x.com/omrice4869
+                    : 
+                    : Movie：えのき
+                    : https://x.com/en_eki
+                    : 
+                    : Assistant：津田、恋ゆる、翠葉
+                    : 
+                    : Vocal：初音ミク
+                    : 
+                    : 2025.7.9 Release
+                    : 『初音ミク「マジカルミライ 2025」OFFICIAL ALBUM』収録
+                    : https://magicalmirai.com/2025/goods_cd.html
+                    : https://n0.com/s/xb3cfpnuta1a
+                    : ⟡ ⊹˚⋆⟡ ⊹˚⋆⟡ ⊹˚⋆⟡ ⊹˚⋆⟡ ⊹˚⋆⟡ ⊹˚⋆⟡ ⊹˚⋆⟡
+                    : 
+                    : ゆっくり落ちる砂時計
+                    : 揺らいだ夜の星たちも
+                    : 気付けなくなっていたのは
+                    : 
+                    : きっと　涙が止まない夕暮れも
+                    : 動けそうにない朝明けも
+                    : 隣に誰もいないから
+                    : 
+                    : 負けたくない今日の日を　精一杯走った
+                    : 正しく生きることの　意味を知らないまま
+                    : でも　確かにそこに光はあったんだ
+                    : 
+                    : ねぇ空の色は何色だっただろう
+                    : 星はどんな音色だっただろう
+                    : 君を知らない世界たちが
+                    : この歌を笑っていたんだろう
+                    : 灰色の言葉もあっただろう
+                    : そんな日々を僕は　強さと呼びたい
+                    : 君の星河よ
+                    : 輝いて
+                    : 
+                    : 踏み出す足がすくんでも
+                    : 未来の空が暗くても
+                    : 隣に「音」があったから
+                    : 
+                    : 見えるもの全てが　真実じゃなくて
+                    : 渦巻く人の声を　疑う僕でありたい
+                    : まだ　映らない　星座を探して
+                    : 
+                    : 今まで数えた星だって
+                    : きっと輝いていたのに
+                    : いつから忘れていたの
+                    : いつから消してしまったの
+                    : 
+                    : この世界が美しく見えた
+                    : 最後の日はいつだっけ
+                    : 下を向いていた夜に
+                    : 見落としたんだ　今なら
+                    : 
+                    : 光るから
+                    : 僕の色は何色だっただろう
+                    : 君はどんな音色だっただろう
+                    : 少しだけ顔を上げて
+                    : 広がる空が見えたなら
+                    : あの日の答えもあったなら
+                    : そんな明日を僕は　嫌わないでいたい
+                    : 君の星河よ
+                    : 輝いて
+                    : 
+                    : あぁ空はこんな色だった
+    purl            : https://www.youtube.com/watch?v=gdmLEu5fVz4
+    comment         : https://www.youtube.com/watch?v=gdmLEu5fVz4
+    artist          : *Luna
+    genre           : VOCALOID
+    encoder         : Lavf61.1.100
+    album           : マジカルミライ サウンドトラック
+  Duration: 00:04:30.01, start: 0.023021, bitrate: 138 kb/s
+  Stream #0:0: Audio: mp3 (mp3float), 48000 Hz, stereo, fltp, 130 kb/s, start 0.023021
+    Metadata:
+      encoder         : Lavc61.3.
+  Stream #0:1: Video: mjpeg (Baseline), yuvj420p(pc, bt470bg/unknown/unknown), 720x720, 90k tbr, 90k tbn, start 0.023022 (attached pic)
+    Metadata:
+      title           : Album cover
+      comment         : Cover (front)
+[AVFormatContext @ 0000025496ade880] Unable to choose an output format for 'C:/Users/noumi/ドキュメント/normalizer\＊Luna - ラストラス_norm.mp3.tmp'; use a standard extension for the filename or specify the format manually.
+[out#0 @ 0000025496ad01c0] Error initializing the muxer for C:/Users/noumi/ドキュメント/normalizer\＊Luna - ラストラス_norm.mp3.tmp: Invalid argument
+Error opening output file C:/Users/noumi/ドキュメント/normalizer\＊Luna - ラストラス_norm.mp3.tmp.
+Error opening output files: Invalid argument
+
+2026-10-14 12:57:51,201 - ERROR - Failed to process C:/Users/noumi/Desktop/backups/mp3_BACKUP/＊Luna - ラストラス.mp3: FFmpegの処理に失敗しました: ffmpeg version 9.0.2-essentials_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers
+  built with gcc 16.2.0 (Rev3, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-cairo --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-sdl2 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-mediafoundation --enable-libass --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-openal --enable-libgme --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+  libavutil      61.  1.102 / 61.  1.102
+  libavcodec     63.  1.102 / 63.  1.102
+  libavformat    63.  1.102 / 63.  1.102
+  libavdevice    63.  1.102 / 63.  1.102
+  libavfilter    12.  1.102 / 12.  1.102
+  libswscale     10.  1.102 / 10.  1.102
+  libswresample   7.  1.102 /  7.  1.102
+Input #0, mp3, from 'C:/Users/noumi/Desktop/backups/mp3_BACKUP/＊Luna - ラストラス.mp3':
+  Metadata:
+    title           : ラストラス
+    date            : 2025
+    description     : 初音ミク「マジカルミライ 2025」 テーマソング
+                    : https://magicalmirai.com/2025/
+                    : 
+                    : Music&Lyrics：*Luna
+                    : https://x.com/Luna_miko00
+                    : 
+                    : Vocal-Edit：びび
+                    : https://x.com/bibian0115
+                    : 
+                    : Mix：はるお
+                    : https://x.com/haluo_haluo
+                    : 
+                    : Illustration：おむたつ
+                    : https://x.com/omrice4869
+                    : 
+                    : Movie：えのき
+                    : https://x.com/en_eki
+                    : 
+                    : Assistant：津田、恋ゆる、翠葉
+                    : 
+                    : Vocal：初音ミク
+                    : 
+                    : 2025.7.9 Release
+                    : 『初音ミク「マジカルミライ 2025」OFFICIAL ALBUM』収録
+                    : https://magicalmirai.com/2025/goods_cd.html
+                    : https://n0.com/s/xb3cfpnuta1a
+                    : ⟡ ⊹˚⋆⟡ ⊹˚⋆⟡ ⊹˚⋆⟡ ⊹˚⋆⟡ ⊹˚⋆⟡ ⊹˚⋆⟡ ⊹˚⋆⟡
+                    : 
+                    : ゆっくり落ちる砂時計
+                    : 揺らいだ夜の星たちも
+                    : 気付けなくなっていたのは
+                    : 
+                    : きっと　涙が止まない夕暮れも
+                    : 動けそうにない朝明けも
+                    : 隣に誰もいないから
+                    : 
+                    : 負けたくない今日の日を　精一杯走った
+                    : 正しく生きることの　意味を知らないまま
+                    : でも　確かにそこに光はあったんだ
+                    : 
+                    : ねぇ空の色は何色だっただろう
+                    : 星はどんな音色だっただろう
+                    : 君を知らない世界たちが
+                    : この歌を笑っていたんだろう
+                    : 灰色の言葉もあっただろう
+                    : そんな日々を僕は　強さと呼びたい
+                    : 君の星河よ
+                    : 輝いて
+                    : 
+                    : 踏み出す足がすくんでも
+                    : 未来の空が暗くても
+                    : 隣に「音」があったから
+                    : 
+                    : 見えるもの全てが　真実じゃなくて
+                    : 渦巻く人の声を　疑う僕でありたい
+                    : まだ　映らない　星座を探して
+                    : 
+                    : 今まで数えた星だって
+                    : きっと輝いていたのに
+                    : いつから忘れていたの
+                    : いつから消してしまったの
+                    : 
+                    : この世界が美しく見えた
+                    : 最後の日はいつだっけ
+                    : 下を向いていた夜に
+                    : 見落としたんだ　今なら
+                    : 
+                    : 光るから
+                    : 僕の色は何色だっただろう
+                    : 君はどんな音色だっただろう
+                    : 少しだけ顔を上げて
+                    : 広がる空が見えたなら
+                    : あの日の答えもあったなら
+                    : そんな明日を僕は　嫌わないでいたい
+                    : 君の星河よ
+                    : 輝いて
+                    : 
+                    : あぁ空はこんな色だった
+    synopsis        : 初音ミク「マジカルミライ 2025」 テーマソング
+                    : https://magicalmirai.com/2025/
+                    : 
+                    : Music&Lyrics：*Luna
+                    : https://x.com/Luna_miko00
+                    : 
+                    : Vocal-Edit：びび
+                    : https://x.com/bibian0115
+                    : 
+                    : Mix：はるお
+                    : https://x.com/haluo_haluo
+                    : 
+                    : Illustration：おむたつ
+                    : https://x.com/omrice4869
+                    : 
+                    : Movie：えのき
+                    : https://x.com/en_eki
+                    : 
+                    : Assistant：津田、恋ゆる、翠葉
+                    : 
+                    : Vocal：初音ミク
+                    : 
+                    : 2025.7.9 Release
+                    : 『初音ミク「マジカルミライ 2025」OFFICIAL ALBUM』収録
+                    : https://magicalmirai.com/2025/goods_cd.html
+                    : https://n0.com/s/xb3cfpnuta1a
+                    : ⟡ ⊹˚⋆⟡ ⊹˚⋆⟡ ⊹˚⋆⟡ ⊹˚⋆⟡ ⊹˚⋆⟡ ⊹˚⋆⟡ ⊹˚⋆⟡
+                    : 
+                    : ゆっくり落ちる砂時計
+                    : 揺らいだ夜の星たちも
+                    : 気付けなくなっていたのは
+                    : 
+                    : きっと　涙が止まない夕暮れも
+                    : 動けそうにない朝明けも
+                    : 隣に誰もいないから
+                    : 
+                    : 負けたくない今日の日を　精一杯走った
+                    : 正しく生きることの　意味を知らないまま
+                    : でも　確かにそこに光はあったんだ
+                    : 
+                    : ねぇ空の色は何色だっただろう
+                    : 星はどんな音色だっただろう
+                    : 君を知らない世界たちが
+                    : この歌を笑っていたんだろう
+                    : 灰色の言葉もあっただろう
+                    : そんな日々を僕は　強さと呼びたい
+                    : 君の星河よ
+                    : 輝いて
+                    : 
+                    : 踏み出す足がすくんでも
+                    : 未来の空が暗くても
+                    : 隣に「音」があったから
+                    : 
+                    : 見えるもの全てが　真実じゃなくて
+                    : 渦巻く人の声を　疑う僕でありたい
+                    : まだ　映らない　星座を探して
+                    : 
+                    : 今まで数えた星だって
+                    : きっと輝いていたのに
+                    : いつから忘れていたの
+                    : いつから消してしまったの
+                    : 
+                    : この世界が美しく見えた
+                    : 最後の日はいつだっけ
+                    : 下を向いていた夜に
+                    : 見落としたんだ　今なら
+                    : 
+                    : 光るから
+                    : 僕の色は何色だっただろう
+                    : 君はどんな音色だっただろう
+                    : 少しだけ顔を上げて
+                    : 広がる空が見えたなら
+                    : あの日の答えもあったなら
+                    : そんな明日を僕は　嫌わないでいたい
+                    : 君の星河よ
+                    : 輝いて
+                    : 
+                    : あぁ空はこんな色だった
+    purl            : https://www.youtube.com/watch?v=gdmLEu5fVz4
+    comment         : https://www.youtube.com/watch?v=gdmLEu5fVz4
+    artist          : *Luna
+    genre           : VOCALOID
+    encoder         : Lavf61.1.100
+    album           : マジカルミライ サウンドトラック
+  Duration: 00:04:30.01, start: 0.023021, bitrate: 138 kb/s
+  Stream #0:0: Audio: mp3 (mp3float), 48000 Hz, stereo, fltp, 130 kb/s, start 0.023021
+    Metadata:
+      encoder         : Lavc61.3.
+  Stream #0:1: Video: mjpeg (Baseline), yuvj420p(pc, bt470bg/unknown/unknown), 720x720, 90k tbr, 90k tbn, start 0.023022 (attached pic)
+    Metadata:
+      title           : Album cover
+      comment         : Cover (front)
+[AVFormatContext @ 00000273d746d380] Unable to choose an output format for 'C:/Users/noumi/ドキュメント/normalizer\＊Luna - ラストラス_norm.mp3.tmp'; use a standard extension for the filename or specify the format manually.
+[out#0 @ 00000273d7453980] Error initializing the muxer for C:/Users/noumi/ドキュメント/normalizer\＊Luna - ラストラス_norm.mp3.tmp: Invalid argument
+Error opening output file C:/Users/noumi/ドキュメント/normalizer\＊Luna - ラストラス_norm.mp3.tmp.
+Error opening output files: Invalid argument
+

@@ -1,0 +1,12 @@
+{
+    "target_loudness": -14.0,
+    "target_true_peak": -1.0,
+    "loudness_range": 11.0,
+    "output_dir": "C:/Users/noumi/ドキュメント/normalizer",
+    "preview_duration": 10,
+    "appearance_mode": "Light",
+    "color_theme": "blue",
+    "save_mode": "copy",
+    "output_format": "mp3",
+    "file_list_font_size": 15
+}
