@@ -1,0 +1,2 @@
+# Audio-LoudnessNormalizer
+オーディオファイルのラウドネス・トゥルーピークを調整するソフトウェア
